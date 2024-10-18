@@ -1,0 +1,46 @@
+3ª questão: 
+Neste código, o loop começa com K = 1 e vai até K < INDICE, que é 12. Portanto, K assumirá os valores de 2 a 12. A variável SOMA acumula esses valores:
+
+Quando K = 2: SOMA = 0 + 2 = 2
+Quando K = 3: SOMA = 2 + 3 = 5
+Quando K = 4: SOMA = 5 + 4 = 9
+Quando K = 5: SOMA = 9 + 5 = 14
+Quando K = 6: SOMA = 14 + 6 = 20
+Quando K = 7: SOMA = 20 + 7 = 27
+Quando K = 8: SOMA = 27 + 8 = 35
+Quando K = 9: SOMA = 35 + 9 = 44
+Quando K = 10: SOMA = 44 + 10 = 54
+Quando K = 11: SOMA = 54 + 11 = 65
+Quando K = 12: O loop para (não soma o 12).
+Portanto, ao final do processamento, o valor de SOMA será 65.
+
+4ª questão:
+
+a) 1, 3, 5, 7, ___
+Essa é uma sequência de números ímpares. O próximo elemento é 9.
+
+b) 2, 4, 8, 16, 32, 64, ____
+Essa sequência representa potências de 2, O próximo elemento é 128
+
+c) 0, 1, 4, 9, 16, 25, 36, ____
+Essa sequência são os quadrados de números inteiros, o próximo elemento é 49
+
+d) 4, 16, 36, 64, ____
+Essa sequência representa os quadrados de números pares, o próximo elemento é 100
+
+e) 1, 1, 2, 3, 5, 8, ____
+Essa é a sequência de Fibonacci, onde cada número é a soma dos dois anteriores. O próximo elemento é 13
+
+f) 2, 10, 12, 16, 17, 18, 19, ____
+A sequência parece alternar entre números pares e depois incrementar os ímpares. Após o último 19, o próximo número par é 20.
+
+5ª questão: 
+Primeira ação: Ligue o primeiro interruptor e deixe-o ligado por cerca de 10 minutos. Isso permitirá que a lâmpada correspondente aqueça.
+
+Desligue o primeiro interruptor e ligue o segundo interruptor.
+
+Agora entre na sala com as lâmpadas.
+
+A lâmpada que está acesa é controlada pelo segundo interruptor (que você acabou de ligar).
+A lâmpada que está desligada e quente é controlada pelo primeiro interruptor (que você deixou ligado anteriormente).
+A lâmpada que está desligada e fria é controlada pelo terceiro interruptor.
